@@ -3,11 +3,8 @@ print("2 subtraction")
 print("3 multiplication")
 print("4 division")
 
-
 choice = input("enter you choice :")
 
-
- 
 num1 = float(input("enter number 1 :"))
 num2 = float(input("enter number 2 :"))
 
@@ -21,5 +18,3 @@ elif choice == "4":
       if num2 ==0.0:
           print("divide by 0 error")
       else:print(num1, "/", num2 , "=",(num1/num2))
-else:print("invalid choice")
-print()
